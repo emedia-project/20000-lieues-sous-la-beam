@@ -205,7 +205,7 @@ loop() ->
 
 Voici un schéma qui symbolise les échanges entre les trois processus :
 
-![](../images/09-father_and_sons.jpg)
+![](images/09-father_and_sons.jpg)
 
 Et voilà le résultat de l'execution :
 
@@ -437,7 +437,7 @@ write(IO, Str, Args) ->
 
 Pour utilisez ce script, dans un shell, appelez la fonction `ps:graph/1` avec en paramètre un nom de fichier. En sortie vous aurez donc un fichier _graphviz_[^GRAPHVIZ], qui, une fois compilé, donnera un graphique du type :
 
-![](../images/09-graph.png)
+![](images/09-graph.png)
 
 Nous retrouvons ici tous les processus actifs avec, pour ceux qui sont enregistrés, leur nom, et l'ID pour les autres.
 
@@ -445,7 +445,7 @@ Sur ce schéma, il y a des liens entre les processus. Ces liens, obtenus via le 
 
 Il est également possible d'obtenir la même représentation en utilisant l'application `observer` (onglet _Applications_) d'Erlang. Pour cela, executez `observer:start()` dans un shell.
 
-![](../images/09-observer-graph.png)
+![](images/09-observer-graph.png)
 
 > `observer` est un outil écrit avec `wxWidgets`. Pour pouvoir l'utiliser, vous devez donc avoir compilé Erlang avec le support de `wxWidgets`. Pour plus d'informations sur le sujet, référez vous au chapitre 2.
 
@@ -538,7 +538,7 @@ Nous pouvons déjà constater que pour le test séquentielle, le temps moyen d'e
 
 Mais ce résultat est interressant si nous le correllons avec les graphiques obtenus avec `observer` :
 
-![](../images/09-observer.png)
+![](images/09-observer.png)
 
 Sur le graphique du haut, nous voyons, dans le cas de la version parallèle, une occupation de l'ensemble des CPUs, alors que la version séquentiel n'en a utilisé qu'un. Concernant les IOs (courbe en bas à droite), il y a bien entendu un usage plus important dans la version parallèle. Enfin, concernant la consomation mémoire (en bas à gauche), elle est quasiment identique entre les deux versions.
 

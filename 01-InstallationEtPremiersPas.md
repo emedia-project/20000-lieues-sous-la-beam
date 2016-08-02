@@ -68,7 +68,7 @@ $ sudo make install
 
 Pour pouvoir installer et utiliser Elixir, les outils `erl` et `erlc` doivent être accessibles dans votre `PATH`. Vérifiez que c'est bien le cas en lançant la commande `erl`. Vous devriez alors vous retrouver dans le shell interactif d'Erlang. 
 
-![Le shell Erlang](../images/erl.png)
+![Le shell Erlang](images/erl.png)
 
 ### _kerl_
 
@@ -220,7 +220,7 @@ $ sudo make PREFIX=/your/custom/path install
 
 Tout comme nous avons besoin d'accéder à `erl` et `erlc` pour Erlang, dans le cas d'Elixir, assurez-vous que les outils `iex`, `elixir` et `elixirc` sont bien pointés par votre `PATH`. Vous pouvez le vérifier en accédant au shell interactif Elixir : 
 
-![Le shell Elixir](../images/iex.png)
+![Le shell Elixir](images/iex.png)
 
 ## Mise à jour
 
@@ -249,7 +249,7 @@ Pour accéder à la documentation, il existe bien entendu les sites officiels de
 
 Revenons dans le shell interactif pour en découvrir les contours. Et comme toujours, pour bien commencer, intéressons-nous à la documentation. Pour cela saisissez `h()` dans le shell.
 
-![L'aide dans le shell Elixir](../images/iex-help.png)
+![L'aide dans le shell Elixir](images/iex-help.png)
 
 Je passe sur le début du message envoyé pour ne retenir ici que le fait que nous pouvons accéder à l'aide d'un module spécifique en passant son nom en paramètre de la commande `h()`. Ainsi, en tapant `h(Enum)` nous aurons accès à la documentation du module `Enum`. Nous pouvons également accéder à la documentation d'une fonction particulière d'un module : `h(Enum.all?/2)`. 
 

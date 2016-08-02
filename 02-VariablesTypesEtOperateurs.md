@@ -516,7 +516,7 @@ Pour Erlang, il suffit de donner la taille en la séparant de la valeur par deux
 
 Dans cet exemple, nous avons demandé de coder la valeur 259 sur 16 bits. En retour, nous avons un binaire constitué d'une liste de deux valeurs, la première (`1`), correspond à nos 8 premiers bits (valeur 256), puis `3`, correspondant bien à la valeur pour les 8 bits résultants. 
 
-![](../images/image001.png)
+![](images/image001.png)
 
 Grâce au _pattern matching_, nous pouvons retrouver notre valeur 256 :
 

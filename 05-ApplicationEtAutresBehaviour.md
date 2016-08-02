@@ -916,7 +916,7 @@ Pour illustrer le propos, je vous propose de mettre en place un automate simulan
 
 Voici un diagramme d'état qui présente le niveau d'implémentation complet de notre machine à états[^TH_TMT] :
 
-![](../images/image002.png)
+![](images/image002.png)
 
 La première chose à faire est de démarrer notre _worker_. Pour cela nous allons utiliser la fonction `gen_fsm:start_link/4`. Cette fonction est en tout point semblable à celle de `gen_server`. Comme cette dernière, elle va appeler `?MODULE:init/1` :
 
